@@ -195,5 +195,31 @@ describe('Roman to Arabic', function () {
                 expect(output).to.equal(900);
             });
         });
+
+        describe('lowercase letters', function () {
+            it('should return return 2 for ii', function () {
+                let output = romanToArabic('ii');
+
+                expect(output).to.equal(2);
+            });
+
+            it('should return return 13 for xIiI', function () {
+                let output = romanToArabic('xIiI');
+
+                expect(output).to.equal(13);
+            });
+
+            it('should return return 207 for ccvii', function () {
+                let output = romanToArabic('ccvii');
+
+                expect(output).to.equal(207);
+            });
+
+            it('should return return 1066 for mLxVi', function () {
+                let output = romanToArabic('mLxVi');
+
+                expect(output).to.equal(1066);
+            });
+        });
     });
 });
