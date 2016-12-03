@@ -1,0 +1,28 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "Script that takes a roman numeral and outputs as arabic numerals",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "mocha test/ --recursive",
+    "coverage": "istanbul cover _mocha -- test/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobias-g/roman-numerals.git"
+  },
+  "author": "Tobias Gray",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/tobias-g/roman-numerals/issues"
+  },
+  "homepage": "https://github.com/tobias-g/roman-numerals#readme"
+}
