@@ -168,7 +168,7 @@ describe('Roman to Arabic', function () {
             it('should return return 9 for IX', function () {
                 let output = romanToArabic('IX');
 
-                expect(output).to.equal(4);
+                expect(output).to.equal(9);
             });
 
             it('should return return 40 for XL', function () {
